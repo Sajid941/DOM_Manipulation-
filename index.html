@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM_Manupulation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div >   
+    <form class="input">
+        <h3 class="title">Addmisson Form</h1>
+            <div class="info">
+            
+            <label for="name">Name
+                <span id="counter"></span>
+            </label>
+            <input placeholder="Your name"  class="input-info" type="text" id="name" maxlength="24">
+        </div>
+        <div class="info">
+            <label for="name">Class Roll</label>
+            <input placeholder="Your ClassRoll" class="input-info" type="text" id="classRoll">
+        </div>
+        <div class="info">
+            <label for="name">Board Roll</label>
+            <input placeholder="Your BoardRoll"class="input-info" type="text" id="boardRoll">
+        </div>
+        <div class="info">
+            <label for="name">Phone</label>
+            <input placeholder="Your Phone"class="input-info" type="text" id="phone">
+        </div>
+        <div class="info">
+            <label for="name">Address</label>
+            <input placeholder="Your Address"class="input-info" type="text" id="address">
+        </div>
+        <button onclick="addStudent()" type="button" class="add-btn" >Add New Student </button>
+    </form>
+    <table class="studentList" >
+        <thead>
+            <tr>
+                <th>Serial</th>
+                <th>Name</th>
+                <th>Class Roll</th>
+                <th>Board Roll</th>
+                <th>Phone</th>
+                <th>Address</th>
+            </tr>
+        </thead>
+        <tbody id="studentList">
+            <tr>
+            </tr>
+        </tbody>
+    </table>
+
+</div>
+    <script src="./script.js"></script>
+</body>
+</html>
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-area">
+        <form>            
+            <div class="form-group">
+                <label class="form-label" for="name">Name</label>
+                <input 
+                 class="form-input" type="text" id="name">
+            </div>
+
+            <div class="form-group">
+                <label class="form-label" for="name">Class Roll</label>
+                <input class="form-input" type="text" id="classRoll">
+            </div>
+
+            <div class="form-group">
+                <label class="form-label" for="name">Board Roll</label>
+                <input class="form-input" type="text" id="boardRoll">
+            </div>
+
+            <div class="form-group">
+                <label class="form-label" for="name">Phone</label>
+                <input class="form-input" type="text" id="phone">
+            </div>
+
+            <div class="form-group">
+                <label class="form-label" for="name">Address</label>
+                <input class="form-input" type="text" id="address">
+            </div>
+
+            <button onclick="addStudent()" type="button" class="btn" id="btn-add">Add New Student</button>
+        </form>
+    </div>
+
+    <table class="studentList">
+        <thead>
+            <tr>
+                <th>Serial</th>
+                <th>Name</th>
+                <th>Class Roll</th>
+                <th>Board Roll</th>
+                <th>Phone</th>
+                <th>Address</th>
+            </tr>
+        </thead>
+
+        <tbody id="studentList">
+        </tbody>
+    </table>
+
+
+    
+    <script src="script.js"></script>
+</body>
+</html> -->
